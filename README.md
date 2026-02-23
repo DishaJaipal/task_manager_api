@@ -138,16 +138,10 @@ DATABASE_URL=postgresql+asyncpg://user:password@localhost:5432/taskdb
 SECRET_KEY=your-secret-key
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
-REDIS_URL=redis://localhost:6379
+REDIS_URL=redis://localhost:6379/0
 ```
 
----
 
-## Scalability Note
-
-See [`scalability_note.md`](./scalability_note.md)
-
----
 
 ## API Documentation
 
